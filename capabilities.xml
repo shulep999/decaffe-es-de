@@ -71,11 +71,11 @@
         <selectable>true</selectable>
     </variant>
     <variant name="colorWithMeta">
-        <label>Color wi Meta</label>
+        <label>Color w Meta</label>
         <selectable>true</selectable>
     </variant>
     <variant name="colorWithoutMeta">
-        <label>Color no Meta</label>
+        <label>Color w/o Meta</label>
         <selectable>true</selectable>
     </variant>
 </themeCapabilities>

@@ -1,6 +1,6 @@
-# kofe_es_de for EmulationStation Desktop Edition
+# decaffe_es_de for EmulationStation Desktop Edition
 
-KoFE is a theme based on RetroFE main theme which is similar to Kodi theme confluence and others. It supports all systems as well as the latest application features of ESDE.
+DEcaffe is a theme based on RetroFE main theme which is similar to Kodi theme confluence and others. It supports all systems as well as the latest application features of ESDE.
 
 ![systems](sys.png)
 ![games](game.png)

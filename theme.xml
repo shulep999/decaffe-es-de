@@ -12,7 +12,6 @@
     <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
-        <visible>true</visible>
         <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
         <syslogoColor>./system/logos/syslogocolor/${system.theme}.svg</syslogoColor>
     </variables>
@@ -24,22 +23,16 @@
 
     <aspectRatio name="16:9">
         <include>./16-9.xml</include>
-        <variables>
-            <visible>true</visible>
-        </variables>
+        
     </aspectRatio>
     <aspectRatio name="16:10">
         <include>./16-10.xml</include>
-        <variables>
-            <visible>true</visible>
-        </variables>
+        
     </aspectRatio>
 
     <aspectRatio name="21:9">
         <include>./21-9.xml</include>
-        <variables>
-            <visible>true</visible>
-        </variables>
+        
     </aspectRatio>
 
 
@@ -170,7 +163,6 @@
             <horizontalAlignment>center</horizontalAlignment>
             <color>${mainFontColor}</color>
             <zIndex>15</zIndex>
-            <visible>${fontvis}</visible>
         </text>
         <rating name="rating">
             <pos>${sysgamerate}</pos>
@@ -295,8 +287,6 @@
             <colorEnd>${mainFontColor}00</colorEnd>
             <gradientType>vertical</gradientType>
             <zIndex>12</zIndex>
-            
-            <visible>${visible}</visible>
         </image>
         <image name="rightband2">
             <pos>0.788 0</pos>
@@ -306,8 +296,6 @@
             <colorEnd>${mainFontColor}</colorEnd>
             <gradientType>vertical</gradientType>
             <zIndex>12</zIndex>
-            
-            <visible>${visible}</visible>
         </image>
     </view>
 
@@ -459,7 +447,6 @@
             <colorEnd>${mainFontColor}00</colorEnd>
             <gradientType>vertical</gradientType>
             <zIndex>12</zIndex>
-            <visible>${visible}</visible>
         </image>
         <image name="rightband2">
             <pos>0.788 0</pos>
@@ -469,7 +456,6 @@
             <colorEnd>${mainFontColor}</colorEnd>
             <gradientType>vertical</gradientType>
             <zIndex>12</zIndex>
-            <visible>${visible}</visible>
         </image>
         <video name="gamedisplay">
             <imageType>titlescreen, screenshot</imageType>
@@ -518,7 +504,6 @@
                 <maxSize>0.3 0.1</maxSize>
                 <color>${mainFontColor}aa</color>
                 <zIndex>10</zIndex>
-                <visible>${visible}</visible>
             </image>
             <text name="game">
                 <pos>${sysgamename}</pos>
@@ -575,7 +560,6 @@
                 <maxSize>0.3 0.1</maxSize>
                 <color>${mainFontColor}aa</color>
                 <zIndex>10</zIndex>
-                <visible>${visible}</visible>
             </image>
             <text name="game">
                 <pos>${sysgamename}</pos>
@@ -651,7 +635,6 @@
                 <size>0.18 0.67</size>
                 <origin>0 0</origin>
                 <container>true</container>
-                <visible>${visible}</visible>
             </text>
             <text name="name1">
                 <text>${systemName}</text>
@@ -729,7 +712,6 @@
                 <pos>0.81 0.04</pos>
                 <size>0.18 0.67</size>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="game">
                 <pos>${sysgamename}</pos>
@@ -742,7 +724,6 @@
                 <horizontalAlignment>center</horizontalAlignment>
                 <color>${mainFontColor}</color>
                 <zIndex>15</zIndex>
-                <visible>${visible}</visible>
             </text>
 
             <text name="publisher1">
@@ -756,7 +737,6 @@
                 <pos>0.075 0.265</pos>
                 <size>0.125 0.06</size>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="publisher2">
                 <text>Publisher:</text>
@@ -766,7 +746,6 @@
                 <color>${mainFontColor}</color>
                 <pos>0.01 0.27</pos>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="developer1">
                 <metadata>developer</metadata>
@@ -779,7 +758,6 @@
                 <pos>0.075 0.325</pos>
                 <size>0.125 0.06</size>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="developer2">
                 <text>Developer:</text>
@@ -789,7 +767,6 @@
                 <color>${mainFontColor}</color>
                 <pos>0.01 0.33</pos>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="genre1">
                 <metadata>genre</metadata>
@@ -802,7 +779,6 @@
                 <pos>0.075 0.385</pos>
                 <size>0.125 0.06</size>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="genre2">
                 <text>Genre:</text>
@@ -812,7 +788,6 @@
                 <color>${mainFontColor}</color>
                 <pos>0.01 0.39</pos>
                 <origin>0 0</origin>
-                <visible>${visible}</visible>
             </text>
             <text name="players1">
                 <metadata>players</metadata>
