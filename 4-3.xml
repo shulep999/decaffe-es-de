@@ -2,6 +2,13 @@
 
    
     <view name="system">
+        <text name="game">
+            <container>true</container>
+            <containerType>horizontal</containerType>
+            </text>
+        <text name="gamecount">
+            <visible>false</visible>
+        </text>
         <image name="rightband1">
         
         <visible>false</visible>
