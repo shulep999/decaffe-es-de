@@ -12,8 +12,8 @@
     <include>./system/metadata/${system.theme}.xml</include>
 
     <variables>
-        <syslogo>./system/logos/syslogo/${system.theme}.svg</syslogo>
-        <syslogoColor>./system/logos/syslogocolor/${system.theme}.svg</syslogoColor>
+        <syslogo>./system/logos/system-logo-white/${system.theme}.svg</syslogo>
+        <syslogoColor>./system/logos/system-logo-color/${system.theme}.svg</syslogoColor>
     </variables>
 
     <aspectRatio name="4:3">
