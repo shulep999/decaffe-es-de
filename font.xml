@@ -29,6 +29,7 @@
                 <sysgamelistrate>0.81 0.7525</sysgamelistrate>
                 <ratesize>0.08 0.025</ratesize>
                 <gamedescpos>0.81 0.04</gamedescpos>
+                <fontvis>true</fontvis>
             </variables>
         </fontSize>
         <fontSize name="large">

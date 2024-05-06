@@ -173,6 +173,7 @@
             <size>${ratesize}</size>
             <interpolation>nearest</interpolation>
             <color>${mainFontColor}</color>
+            <visible>${fontvis}</visible>
             <filledPath>./assets/images/rating_filled.svg</filledPath>
             <unfilledPath>./assets/images/rating_empty.svg</unfilledPath>
         </rating>
